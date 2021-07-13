@@ -1,0 +1,25 @@
+name: Run Benchmarks
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: uccross/skyhookdm-arrow:v0.2.0
+    steps:
+      - uses: actions/checkout@v2
+ 
+      - name: Installing benchmark
+        run: |
+          git clone https://github.com/ursacomputing/benchmarks.git
+          git clone https://github.com/ursacomputing/conbench.git
+          cd cd ~/benchmarks/
+          pip install -r requirements-test.txt
+          pip install -r requirements-build.txt
+          python setup.py develop
