@@ -1,0 +1,55 @@
+{
+    "batch_id": "1137522e36134a4392adf1af08e60671",
+    "context": {
+        "arrow_compiler_flags": " -fdiagnostics-color=always -O3 -DNDEBUG",
+        "arrow_compiler_id": "GNU",
+        "arrow_compiler_version": "8.4.1",
+        "arrow_version": "5.0.0-SNAPSHOT",
+        "benchmark_language": "Python",
+        "benchmark_language_version": "Python 3.9.6"
+    },
+    "github": {
+        "commit": "4290252454ef98da08f2bf53d892d6e129860a75",
+        "repository": "https://github.com/apache/arrow"
+    },
+    "machine_info": {
+        "architecture_name": "x86_64",
+        "cpu_core_count": "2",
+        "cpu_frequency_max_hz": "0",
+        "cpu_l1d_cache_bytes": "32768",
+        "cpu_l1i_cache_bytes": "32768",
+        "cpu_l2_cache_bytes": "1048576",
+        "cpu_l3_cache_bytes": "37486592",
+        "cpu_model_name": "Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz",
+        "cpu_thread_count": "2",
+        "kernel_name": "5.8.0-1036-azure",
+        "memory_bytes": "7516192768",
+        "name": "50a910301d25",
+        "os_name": "Linux",
+        "os_version": "5.8.0-1036-azure-x86_64-with-glibc2.28"
+    },
+    "run_id": "1137522e36134a4392adf1af08e60671",
+    "stats": {
+        "data": [
+            "0.007003"
+        ],
+        "iqr": "0.000000",
+        "iterations": 1,
+        "max": "0.007003",
+        "mean": "0.007003",
+        "median": "0.007003",
+        "min": "0.007003",
+        "q1": "0.007003",
+        "q3": "0.007003",
+        "stdev": 0,
+        "time_unit": "s",
+        "times": [],
+        "unit": "s"
+    },
+    "tags": {
+        "cpu_count": null,
+        "dataset": "nyctaxi_2010-01",
+        "name": "dataset-selectivity-column-parquet"
+    },
+    "timestamp": "2021-07-28T14:18:51.563250+00:00"
+}
