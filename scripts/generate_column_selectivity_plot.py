@@ -8,7 +8,7 @@ from datetime import date
 COMMIT_SHA = config('github.sha')
 today = date.today().strftime("%Y-%m-%d")
 
-path = "../benchmarks-result/" + today + "/" + COMMIT_SHA + "/"
+path = "./benchmarks-result/" + today + "/" + COMMIT_SHA + "/"
 # path = "./benchmarks-result/" + '2021-07-30' + "/" + COMMIT_SHA + "/"
 
 plot_df = pd.DataFrame({'fileType':[],
