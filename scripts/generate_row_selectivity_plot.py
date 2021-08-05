@@ -15,8 +15,8 @@ plot_df = pd.DataFrame({'fileType':[],
         'result':[],
         'selectivity': []})
 
-for i in [1,2,5,10,14]:
-    filename = 'dataset-selectivity-' + str(i) + '-column-parquet.json'
+for i in [1, 10, 25, 50, 75, 90, 99, 100]:
+    filename = 'dataset-selectivity-' + str(i) + '-row-parquet.json'
     f = open(path + filename,)
     data = json.load(f)
     df = pd.DataFrame({'fileType':["Parquet"],
@@ -24,7 +24,7 @@ for i in [1,2,5,10,14]:
         'selectivity': [i]})
     plot_df = plot_df.append(df)
 
-for i in [1,2,5,10,14]:
+for i in [1, 10, 25, 50, 75, 90, 99, 100]:
     filename = 'dataset-selectivity-' + str(i) + '-column-rados.json'
     f = open(path + filename,)
     data = json.load(f)
@@ -37,4 +37,4 @@ plot_df = plot_df.sort_values(by=['selectivity'])
 sns.barplot(data=plot_df, x="selectivity",y = "result", hue="fileType")
 
 print(plot_df)
-plt.savefig(path + 'column-result.png')
+plt.savefig(path + 'row-result.png')
