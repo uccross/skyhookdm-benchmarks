@@ -25,7 +25,7 @@ for i in [1, 10, 25, 50, 75, 90, 99, 100]:
     plot_df = plot_df.append(df)
 
 for i in [1, 10, 25, 50, 75, 90, 99, 100]:
-    filename = 'dataset-selectivity-' + str(i) + '-column-rados.json'
+    filename = 'dataset-selectivity-' + str(i) + '-row-rados.json'
     f = open(path + filename,)
     data = json.load(f)
     df = pd.DataFrame({'fileType':["Rados"],
