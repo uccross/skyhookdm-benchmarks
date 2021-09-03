@@ -1,5 +1,5 @@
 {
-    "batch_id": "341fe0448f6740d688b383781c1c858b",
+    "batch_id": "170d5c0fa2d243d5bf421ad9de88a3eb",
     "context": {
         "arrow_compiler_flags": " -fdiagnostics-color=always -O3 -DNDEBUG",
         "arrow_compiler_id": "GNU",
@@ -20,27 +20,27 @@
         "cpu_l1i_cache_bytes": "32768",
         "cpu_l2_cache_bytes": "1048576",
         "cpu_l3_cache_bytes": "37486592",
-        "cpu_model_name": "Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz",
+        "cpu_model_name": "Intel(R) Xeon(R) Platinum 8171M CPU @ 2.60GHz",
         "cpu_thread_count": "2",
         "kernel_name": "5.8.0-1040-azure",
         "memory_bytes": "7516192768",
-        "name": "048ca51d8532",
+        "name": "b664ba31014a",
         "os_name": "Linux",
         "os_version": "5.8.0-1040-azure-x86_64-with-glibc2.28"
     },
-    "run_id": "341fe0448f6740d688b383781c1c858b",
+    "run_id": "170d5c0fa2d243d5bf421ad9de88a3eb",
     "stats": {
         "data": [
-            "0.048968"
+            "0.050309"
         ],
         "iqr": "0.000000",
         "iterations": 1,
-        "max": "0.048968",
-        "mean": "0.048968",
-        "median": "0.048968",
-        "min": "0.048968",
-        "q1": "0.048968",
-        "q3": "0.048968",
+        "max": "0.050309",
+        "mean": "0.050309",
+        "median": "0.050309",
+        "min": "0.050309",
+        "q1": "0.050309",
+        "q3": "0.050309",
         "stdev": 0,
         "time_unit": "s",
         "times": [],
@@ -51,5 +51,5 @@
         "dataset": "nyctaxi_2010-01",
         "name": "dataset-selectivity-row-rados"
     },
-    "timestamp": "2021-09-03T08:13:09.849951+00:00"
+    "timestamp": "2021-09-03T08:14:09.890597+00:00"
 }
