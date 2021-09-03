@@ -1,5 +1,5 @@
 {
-    "batch_id": "bd7021651f1349b8b45a0e2cc56ce4c0",
+    "batch_id": "c97f3697ab304356a379e89e53c31019",
     "context": {
         "arrow_compiler_flags": " -fdiagnostics-color=always -O3 -DNDEBUG",
         "arrow_compiler_id": "GNU",
@@ -18,29 +18,29 @@
         "cpu_frequency_max_hz": "0",
         "cpu_l1d_cache_bytes": "32768",
         "cpu_l1i_cache_bytes": "32768",
-        "cpu_l2_cache_bytes": "262144",
-        "cpu_l3_cache_bytes": "52428800",
-        "cpu_model_name": "Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz",
+        "cpu_l2_cache_bytes": "1048576",
+        "cpu_l3_cache_bytes": "37486592",
+        "cpu_model_name": "Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz",
         "cpu_thread_count": "2",
         "kernel_name": "5.8.0-1040-azure",
         "memory_bytes": "7516192768",
-        "name": "b7ee6cb16349",
+        "name": "048ca51d8532",
         "os_name": "Linux",
         "os_version": "5.8.0-1040-azure-x86_64-with-glibc2.28"
     },
-    "run_id": "bd7021651f1349b8b45a0e2cc56ce4c0",
+    "run_id": "c97f3697ab304356a379e89e53c31019",
     "stats": {
         "data": [
-            "0.023353"
+            "0.018603"
         ],
         "iqr": "0.000000",
         "iterations": 1,
-        "max": "0.023353",
-        "mean": "0.023353",
-        "median": "0.023353",
-        "min": "0.023353",
-        "q1": "0.023353",
-        "q3": "0.023353",
+        "max": "0.018603",
+        "mean": "0.018603",
+        "median": "0.018603",
+        "min": "0.018603",
+        "q1": "0.018603",
+        "q3": "0.018603",
         "stdev": 0,
         "time_unit": "s",
         "times": [],
@@ -51,5 +51,5 @@
         "dataset": "nyctaxi_2010-01",
         "name": "dataset-selectivity-column-rados"
     },
-    "timestamp": "2021-09-03T07:44:35.995062+00:00"
+    "timestamp": "2021-09-03T08:12:57.104894+00:00"
 }
